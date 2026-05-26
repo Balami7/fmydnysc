@@ -25,7 +25,7 @@ export default function AdminDashboard() {
   const handleExport = async () => {
     setExporting(true);
     try {
-      const response = await fetch("/SNITIS/api/admin/export");
+      const response = await fetch("/api/admin/export");
       
       if (!response.ok) {
         throw new Error(`Export failed with status ${response.status}`);
@@ -63,7 +63,7 @@ export default function AdminDashboard() {
   const handleLogout = async () => {
     setLoggingOut(true);
     try {
-      await fetch("/SNITIS/api/admin/logout", { method: "POST" });
+      await fetch("/api/admin/logout", { method: "POST" });
       router.push("/admin/login");
     } catch (err) {
       console.error("Logout error:", err);
@@ -75,7 +75,7 @@ export default function AdminDashboard() {
   useEffect(() => {
     const fetchRegistrations = async () => {
       try {
-        const response = await fetch("/SNITIS/api/registration");
+        const response = await fetch("/api/registration");
         if (!response.ok) throw new Error("Failed to fetch registrations");
 
         const data = await response.json();
