@@ -117,7 +117,7 @@ export default function AdminDashboardPage() {
             <img src="/1.jpeg" alt=" " className="h-10 w-auto object-contain" />
             <div>
               <h1 className="text-sm font-black uppercase tracking-wider text-black">Admin Management Console</h1>
-              <p className="text-[10px] font-bold text-emerald-800 uppercase tracking-widest">Sub-National Roundtable Portal</p>
+              <p className="text-[10px] font-bold text-emerald-800 uppercase tracking-widest"> CHINA-NIGERIA YOUTH EXCHANGE SEMINAR ON CHINA-AFRICA COMMUNITY WITH A SHARED FUTURE</p>
             </div>
           </div>
           <button 
@@ -225,8 +225,7 @@ export default function AdminDashboardPage() {
 
       <footer className="relative z-10 border-t border-black bg-white py-6 print:mt-4 print:py-2">
         <p className="text-center text-xs text-black/70 max-w-4xl mx-auto px-6">
-          Federal Secretariat Complex, Phase II, Shehu Shagari Way, Abuja, Nigeria. Secure Management Gateway.
-        </p>
+Bullet Building, Shehu Shagari Way, Central Business District, Abuja, Federal Capital
       </footer>
     </div>
   );

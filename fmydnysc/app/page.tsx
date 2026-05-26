@@ -177,8 +177,7 @@ export default function RegistrationPage() {
 
       <footer className="relative z-10 border-t border-black bg-white py-6 mt-16">
         <p className="text-center text-sm text-black/70">
-          Block C 8TH Floor C807-C816, Federal Secretariat Complex, Phase II, Shehu Shagari Way, Abuja, Nigeria Tel:+234 803 704 1001
-        </p>
+Bullet Building, Shehu Shagari Way, Central Business District, Abuja, Federal Capital
       </footer>
     </div>
   );
