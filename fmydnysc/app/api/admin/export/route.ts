@@ -2,6 +2,9 @@ import { NextResponse } from "next/server";
 import { Workbook } from "exceljs";
 import { prisma } from "@/lib/prisma";
 
+// Add this line to prevent Next.js from running this code during 'npm run build'
+export const dynamic = "force-dynamic";
+
 export async function GET() {
   try {
     // Fetch all registrations
