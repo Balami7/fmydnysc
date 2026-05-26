@@ -177,7 +177,7 @@ export default function RegistrationPage() {
 
       <footer className="relative z-10 border-t border-black bg-white py-6 mt-16">
         <p className="text-center text-sm text-black/70">
-Bullet Building, Shehu Shagari Way, Central Business District, Abuja, Federal Capital
+Bullet Building, Shehu Shagari Way, Central Business District, Abuja, Federal Capital </p>
       </footer>
     </div>
   );

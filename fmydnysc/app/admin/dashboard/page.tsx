@@ -225,7 +225,7 @@ export default function AdminDashboardPage() {
 
       <footer className="relative z-10 border-t border-black bg-white py-6 print:mt-4 print:py-2">
         <p className="text-center text-xs text-black/70 max-w-4xl mx-auto px-6">
-Bullet Building, Shehu Shagari Way, Central Business District, Abuja, Federal Capital
+Bullet Building, Shehu Shagari Way, Central Business District, Abuja, Federal Capital </p>
       </footer>
     </div>
   );
