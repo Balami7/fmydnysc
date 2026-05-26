@@ -18,7 +18,7 @@ export async function GET(request: NextRequest) {
     });
 
     // Transform database records to match frontend interface
-    const transformedRecords = registrations.map((reg) => ({
+    const transformedRecords = registrations.map((reg: any) => ({
       id: reg.id,
       first_name: reg.firstName,
       last_name: reg.lastName,
