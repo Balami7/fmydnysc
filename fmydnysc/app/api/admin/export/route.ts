@@ -36,7 +36,7 @@ export async function GET() {
     };
 
     // Add data rows
-    registrations.forEach((reg as any) => {
+    registrations.forEach((reg: any) => {
       worksheet.addRow({
         firstName: reg.firstName,
         lastName: reg.lastName,
