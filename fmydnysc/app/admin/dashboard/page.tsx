@@ -143,7 +143,7 @@ export default function AdminDashboardPage() {
           </div>
           <div className="bg-white border border-black p-6 rounded-sm shadow-sm print:p-3">
             <p className="text-[10px] font-black uppercase tracking-widest text-black/50">Event Date Reference</p>
-            <p className="text-xl font-black text-black mt-2">JUNE 17, 2026</p>
+            <p className="text-xl font-black text-black mt-2">JUNE 1<sup>ST</sup>, 2026</p>
           </div>
         </div>
 
